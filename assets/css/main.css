@@ -1,0 +1,27 @@
+.main_title {
+
+  text-align: center;
+}
+
+.section_title {
+
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color: red;
+}
+
+nav {
+
+  background-color: white;
+}
+
+.link_in_contact_me {
+	
+  background-color: white;
+  padding-left: 0;
+}
