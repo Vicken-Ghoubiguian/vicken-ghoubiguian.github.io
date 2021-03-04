@@ -5,5 +5,5 @@ $(function () {
 	$('#my_online_portfolio_board').tabs();
 	
 	// Define the tooltip's effects...
-	$('[data-toggle="tooltip"]').tooltip()
+	$('[data-toggle="tooltip"]').tooltip();
 })

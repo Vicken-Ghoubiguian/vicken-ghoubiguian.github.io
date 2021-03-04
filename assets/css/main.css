@@ -1,4 +1,4 @@
-body, li, a + .tooltip > .tooltip-inner {
+body, li {
 
   font-family: cursive;
 }
