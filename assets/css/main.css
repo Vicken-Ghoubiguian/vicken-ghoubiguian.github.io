@@ -31,31 +31,37 @@ nav {
   padding-left: 0;
 }
 
+/* LinkedIn Font Awesome (FA) icon class */
 .fa-linkedin-in {
 
   color: #0e76a8;
 }
 
+/* GitHub Font Awesome (FA) icon class */
 .fa-github {
 
   color: #000000;
 }
 
+/* Docker Font Awesome (FA) icon class */
 .fa-docker {
 
   color: #0db7ed;
 }
 
+/* Code Pen Font Awesome (FA) icon class */
 .fa-codepen {
 
   color: #000000;
 }
 
+/* YouTube Font Awesome (FA) icon class */
 .fa-youtube {
 
   color: #ff0000;
 }
 
+/* Instagram Font Awesome (FA) icon class */
 .fa-instagram {
 
   color: transparent;
@@ -65,11 +71,13 @@ nav {
   -webkit-background-clip: text;
 }
 
+/* Skype Font Awesome (FA) icon class */
 .fa-skype {
 
   color: #0099CC;
 }
 
+/* Mail Font Awesome (FA) icon class */
 .fa-envelope-square {
 
   color: #007fff;
