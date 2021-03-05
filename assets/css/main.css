@@ -31,6 +31,13 @@ nav {
   padding-left: 0;
 }
 
+
+/* Configuration of cursor fior tabs */
+#my_online_portfolio_board.ui-tabs ul.ui-tabs-nav .ui-tabs-anchor {
+
+    cursor:grab;
+}
+
 /* LinkedIn Font Awesome (FA) icon class */
 .fa-linkedin-in {
 
