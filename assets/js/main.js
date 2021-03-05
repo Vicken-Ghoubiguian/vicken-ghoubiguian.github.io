@@ -2,12 +2,14 @@
 $(function () {
 	
 	// For 'tabs' jQuery UI effect... 
-	var my_online_portfolio_board_tabs = $('#my_online_portfolio_board').tabs();
+	var my_online_portfolio_board_tabs = $('#my_online_portfolio_board').tabs({
+		
+		event: "mouseover"
+	});
 
 	my_online_portfolio_board_tabs.find( ".ui-tabs-nav" ).sortable({
-	
-      axis: "x",
 
+      axis: "x",
       stop: function() {
 
         my_online_portfolio_board_tabs.tabs( "refresh" );
