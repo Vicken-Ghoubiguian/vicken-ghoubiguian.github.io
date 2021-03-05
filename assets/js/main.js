@@ -2,7 +2,17 @@
 $(function () {
 	
 	// For 'tabs' jQuery UI effect... 
-	$('#my_online_portfolio_board').tabs();
+	var my_online_portfolio_board_tabs = $('#my_online_portfolio_board').tabs();
+
+	my_online_portfolio_board_tabs.find( ".ui-tabs-nav" ).sortable({
+	
+      axis: "x",
+
+      stop: function() {
+
+        my_online_portfolio_board_tabs.tabs( "refresh" );
+      }
+    });
 	
 	// Define the tooltip's effects...
 	$('[data-toggle="tooltip"]').tooltip();
