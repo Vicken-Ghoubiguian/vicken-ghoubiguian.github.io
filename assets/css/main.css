@@ -13,9 +13,20 @@ body, li {
   display: block;
   font-size: 2em;
   margin-top: 0.67em;
-  margin-bottom: 0.67em;
+  margin-bottom: 0.1em;
   margin-left: 0;
   margin-right: 0;
+  font-weight: bold;
+  color: #ff0000;
+}
+
+.sub-title {
+
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.1em;
+  margin-bottom: 0.67em;
+  text-align: center;
   font-weight: bold;
   color: #ff0000;
 }
