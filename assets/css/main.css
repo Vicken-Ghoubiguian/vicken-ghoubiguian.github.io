@@ -42,6 +42,11 @@ nav {
   padding-left: 0;
 }
 
+.h4 {
+
+  margin-bottom: 13px;
+}
+
 
 /* Configuration of cursor fior tabs */
 #my_online_portfolio_board.ui-tabs ul.ui-tabs-nav .ui-tabs-anchor {
