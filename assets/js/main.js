@@ -20,5 +20,8 @@ $(function () {
 	$('[data-toggle="tooltip"]').tooltip();
 
 	// Opening the dialog pop-up...
-	$("#dialog").dialog();
+	$("#dialog").dialog({
+		
+		modal: true
+	});
 })
