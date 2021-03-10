@@ -37,7 +37,7 @@ $(function () {
 		modal: true
 	});
 
-	//
+	// Define the function when the visitor click on the 'my_contact_details' button...
 	$("#my_contact_details").on( "click", function() {
 
 		// Opening the 'dialog_to_contact_me' dialog pop-up...
