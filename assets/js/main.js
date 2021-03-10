@@ -21,10 +21,18 @@ $(function () {
 
 	// Opening the dialog pop-up...
 	$("#dialog").dialog({
-		
+
+		autoOpen: false,
 		resizable: false,
-      	height: "auto",
-      	width: 400,
+		height: "auto",
+		width: 400,
 		modal: true
+	});
+
+	//
+	$("#my_contact_details").on( "click", function() {
+
+		// Opening the dialog pop-up...
+		$("#dialog").dialog("open");
 	});
 })
