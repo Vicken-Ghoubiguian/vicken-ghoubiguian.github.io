@@ -22,6 +22,9 @@ $(function () {
 	// Opening the dialog pop-up...
 	$("#dialog").dialog({
 		
+		resizable: false,
+      	height: "auto",
+      	width: 400,
 		modal: true
 	});
 })
