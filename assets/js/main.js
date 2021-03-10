@@ -23,6 +23,14 @@ $(function () {
 	$("#dialog").dialog({
 
 		autoOpen: false,
+		show: {
+        	effect: "scale",
+        	duration: 1000
+      	},
+      	hide: {
+        	effect: "drop",
+        	duration: 1000
+      	},
 		resizable: false,
 		height: "auto",
 		width: 400,
