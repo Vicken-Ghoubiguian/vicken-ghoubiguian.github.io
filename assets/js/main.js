@@ -18,4 +18,7 @@ $(function () {
 	
 	// Define the tooltip's effects...
 	$('[data-toggle="tooltip"]').tooltip();
+
+	// Opening the dialog pop-up...
+	$("#dialog").dialog();
 })
