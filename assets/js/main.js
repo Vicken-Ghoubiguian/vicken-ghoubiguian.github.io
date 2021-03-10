@@ -19,8 +19,8 @@ $(function () {
 	// Define the tooltip's effects...
 	$('[data-toggle="tooltip"]').tooltip();
 
-	// Opening the dialog pop-up...
-	$("#dialog").dialog({
+	// Opening the 'dialog_to_contact_me' dialog pop-up...
+	$("#dialog_to_contact_me").dialog({
 
 		autoOpen: false,
 		show: {
@@ -40,7 +40,7 @@ $(function () {
 	//
 	$("#my_contact_details").on( "click", function() {
 
-		// Opening the dialog pop-up...
-		$("#dialog").dialog("open");
+		// Opening the 'dialog_to_contact_me' dialog pop-up...
+		$("#dialog_to_contact_me").dialog("open");
 	});
 })
