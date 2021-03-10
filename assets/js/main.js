@@ -19,7 +19,25 @@ $(function () {
 	// Define the tooltip's effects...
 	$('[data-toggle="tooltip"]').tooltip();
 
-	// Opening the 'dialog_to_contact_me' dialog pop-up...
+	// Defining the 'dialog_to_display_pdf' dialog pop-up...
+	$("#dialog_to_display_pdf").dialog({
+
+		autoOpen: false,
+		show: {
+        	effect: "scale",
+        	duration: 1000
+      	},
+      	hide: {
+        	effect: "drop",
+        	duration: 1000
+      	},
+		resizable: false,
+		height: "auto",
+		width: 400,
+		modal: true
+	});
+
+	// Defining the 'dialog_to_contact_me' dialog pop-up...
 	$("#dialog_to_contact_me").dialog({
 
 		autoOpen: false,
