@@ -61,4 +61,11 @@ $(function () {
 		// Opening the 'dialog_to_contact_me' dialog pop-up...
 		$("#dialog_to_contact_me").dialog("open");
 	});
+
+	// Define the function when the visitor click on the 'my_resume' button...
+	$("#my_resume").on( "click", function() {
+
+		// Opening the 'dialog_to_display_my_resume' dialog pop-up...
+		$("#dialog_to_display_my_resume").dialog("open");
+	});
 })
