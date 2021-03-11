@@ -17,7 +17,20 @@ $(function () {
     });
 	
 	// Define the tooltip's effects...
-	$('[data-toggle="tooltip"]').tooltip();
+	$('[data-toggle="tooltip"]').tooltip({
+
+			show: {
+
+        		effect: "slideDown",
+        		delay: 250
+      		},
+
+      		hide: {
+
+        		effect: "slideUp",
+        		delay: 250
+      		}
+  	});
 
 	// Defining the 'dialog_to_display_my_resume' dialog pop-up...
 	$("#dialog_to_display_my_resume").dialog({
