@@ -32,8 +32,8 @@ $(function () {
         	duration: 1000
       	},
 		resizable: false,
-		height: "auto",
-		width: 400,
+		height: 880,
+		width: 800,
 		modal: true
 	});
 
