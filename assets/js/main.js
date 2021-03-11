@@ -19,8 +19,8 @@ $(function () {
 	// Define the tooltip's effects...
 	$('[data-toggle="tooltip"]').tooltip();
 
-	// Defining the 'dialog_to_display_pdf' dialog pop-up...
-	$("#dialog_to_display_pdf").dialog({
+	// Defining the 'dialog_to_display_resume' dialog pop-up...
+	$("#dialog_to_display_resume").dialog({
 
 		autoOpen: false,
 		show: {
