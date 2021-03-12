@@ -29,7 +29,7 @@ $(function () {
 			current_profile_photo_index = 0;
 		}
 
-	},3000);
+	}, 5000);
 
 	// Definition of all thanks photos in the 'thanks_photos_array' array...
 	var thanks_photos_array = [
