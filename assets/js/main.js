@@ -38,23 +38,35 @@ $(function () {
 		"images/photos/remerciement_2.jpg"
 	];
 
-	// Definition of the 'thanks_photo_index' variable which indicates the current index of 'thanks_photos_array' array...
-	var thanks_photo_index = 0;
+	// Definition of the 'current_thanks_photo_index' variable which indicates the current index of 'thanks_photos_array' array...
+	var current_thanks_photo_index = 0;
 
 	// Definition of the thanks photos' timer...
 	setInterval(function(){
 		
 		// Set the current thanks photo's path as the 'src' value...
-	  	$('#thank_you_images_slider').attr('src', thanks_photos_array[thanks_photo_index]);
+	  	$('#thank_you_images_slider').attr('src', thanks_photos_array[current_thanks_photo_index]);
 
-		// 
-		thanks_photo_index = thanks_photo_index + 1;
-
-		// 
-		if(thanks_photo_index === 2) {
+	  	//
+	  	if(current_thanks_photo_index === 0) {
 
 			// 
-			thanks_photo_index = 0;
+			$('#thank_you_images_slider').attr('title', "Karine JANET, responsible of school office at IMERIR");
+
+		} else {
+
+			//
+			$('#thank_you_images_slider').attr('title', "Sonia BOUDERBALA, deputy responsible of school office and assistant at IMERIR");
+		}
+
+		// 
+		current_thanks_photo_index = current_thanks_photo_index + 1;
+
+		// 
+		if(current_thanks_photo_index === 2) {
+
+			// 
+			current_thanks_photo_index = 0;
 		}
 
 	}, 5000);
