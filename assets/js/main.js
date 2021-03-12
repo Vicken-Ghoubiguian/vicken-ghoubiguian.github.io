@@ -1,8 +1,8 @@
 // Definition of global function to apply JavaScript code...
 $(function () {
 
-	//
-	var profile_photos = [
+	// Definition of all profile photos in the 'profile_photos_array' array...
+	var profile_photos_array = [
 
 		"images/photos/photo_de_profit_1.jpg",
 		"images/photos/photo_de_profit_2.jpg",
@@ -10,7 +10,7 @@ $(function () {
 		"images/photos/photo_de_profit_4.jpg"
 	];
 
-	//
+	// Definition of the 'current_profile_photo_index' variable which indicates the current index of 'profile_photos_array' array...
 	var current_profile_photo_index = 0;
 	
 	// For 'tabs' jQuery UI effect... 
@@ -19,6 +19,7 @@ $(function () {
 		event: "mouseover"
 	});
 
+	// Definition of sortable effect of 'tabs'...
 	my_online_portfolio_board_tabs.find( ".ui-tabs-nav" ).sortable({
 
       axis: "x",
