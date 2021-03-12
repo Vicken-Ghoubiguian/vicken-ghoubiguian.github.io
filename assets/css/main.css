@@ -3,6 +3,12 @@ body, li {
   font-family: cursive;
 }
 
+#profile_images_slider {
+
+  margin-bottom: 15px;
+  margin-left: 400px;
+}
+
 .main_title {
 
   text-align: center;
