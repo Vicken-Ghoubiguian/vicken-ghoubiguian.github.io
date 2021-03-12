@@ -40,6 +40,24 @@ $(function () {
 
 	// Definition of the 'thanks_photo_index' variable which indicates the current index of 'thanks_photos_array' array...
 	var thanks_photo_index = 0;
+
+	// Definition of the thanks photos' timer...
+	setInterval(function(){
+		
+		// Set the current thanks photo's path as the 'src' value...
+	  	$('#thank_you_images_slider').attr('src', thanks_photos_array[thanks_photo_index]);
+
+		// 
+		thanks_photo_index = thanks_photo_index + 1;
+
+		// 
+		if(thanks_photo_index === 2) {
+
+			// 
+			thanks_photo_index = 0;
+		}
+
+	}, 5000);
 	
 	// For 'tabs' jQuery UI effect... 
 	var my_online_portfolio_board_tabs = $('#my_online_portfolio_board').tabs({
