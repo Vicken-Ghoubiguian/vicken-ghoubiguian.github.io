@@ -19,17 +19,17 @@ $(function () {
 		// Set the current profile photo's path as the 'src' value...
 	  	$('#profile_images_slider').attr('src', profile_photos_array[current_profile_photo_index]);
 
-	  		// 
-		  	current_profile_photo_index = current_profile_photo_index + 1;
+		// 
+		current_profile_photo_index = current_profile_photo_index + 1;
 
-		  	// 
-		  	if(current_profile_photo_index === 4) {
+		// 
+		if(current_profile_photo_index === 4) {
 
-		  		// 
-		  		current_profile_photo_index = 0;
-		  	}
+			// 
+			current_profile_photo_index = 0;
+		}
 
-	},1000);
+	},3000);
 
 	// Definition of all thanks photos in the 'thanks_photos_array' array...
 	var thanks_photos_array = [
