@@ -12,6 +12,23 @@ $(function () {
 
 	// Definition of the 'current_profile_photo_index' variable which indicates the current index of 'profile_photos_array' array...
 	var current_profile_photo_index = 0;
+
+	//
+	setInterval(function(){
+		
+		//	
+	  	$('#flip').attr('src', profile_photos_array[current_profile_photo_index]);
+
+	  		//
+		  	current_profile_photo_index = current_profile_photo_index + 1;
+
+		  	//
+		  	if(current_profile_photo_index === 4) {
+
+		  		current_profile_photo_index = 0;
+		  	}
+
+	},1000);
 	
 	// For 'tabs' jQuery UI effect... 
 	var my_online_portfolio_board_tabs = $('#my_online_portfolio_board').tabs({
