@@ -1,5 +1,17 @@
 // Definition of global function to apply JavaScript code...
 $(function () {
+
+	//
+	var profile_photos = [
+
+		"images/photos/photo_de_profit_1.jpg",
+		"images/photos/photo_de_profit_2.jpg",
+		"images/photos/photo_de_profit_3.jpg",
+		"images/photos/photo_de_profit_4.jpg"
+	];
+
+	//
+	var current_profile_photo_index = 0;
 	
 	// For 'tabs' jQuery UI effect... 
 	var my_online_portfolio_board_tabs = $('#my_online_portfolio_board').tabs({
@@ -81,4 +93,5 @@ $(function () {
 		// Opening the 'dialog_to_display_my_resume' dialog pop-up...
 		$("#dialog_to_display_my_resume").dialog("open");
 	});
+
 })
