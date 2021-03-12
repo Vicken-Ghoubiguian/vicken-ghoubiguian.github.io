@@ -13,18 +13,19 @@ $(function () {
 	// Definition of the 'current_profile_photo_index' variable which indicates the current index of 'profile_photos_array' array...
 	var current_profile_photo_index = 0;
 
-	//
+	// Definition of the profile photos' timer...
 	setInterval(function(){
 		
-		//	
-	  	$('#flip').attr('src', profile_photos_array[current_profile_photo_index]);
+		// Set the current profile photo's path as the 'src' value...
+	  	$('#profile_images_slider').attr('src', profile_photos_array[current_profile_photo_index]);
 
-	  		//
+	  		// 
 		  	current_profile_photo_index = current_profile_photo_index + 1;
 
-		  	//
+		  	// 
 		  	if(current_profile_photo_index === 4) {
 
+		  		// 
 		  		current_profile_photo_index = 0;
 		  	}
 
