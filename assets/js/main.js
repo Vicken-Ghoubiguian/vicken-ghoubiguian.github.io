@@ -30,6 +30,16 @@ $(function () {
 		  	}
 
 	},1000);
+
+	// Definition of all thanks photos in the 'thanks_photos_array' array...
+	var thanks_photos_array = [
+
+		"images/photos/remerciement_1.jpg",
+		"images/photos/remerciement_2.jpg"
+	];
+
+	// Definition of the 'thanks_photo_index' variable which indicates the current index of 'thanks_photos_array' array...
+	var thanks_photo_index = 0;
 	
 	// For 'tabs' jQuery UI effect... 
 	var my_online_portfolio_board_tabs = $('#my_online_portfolio_board').tabs({
