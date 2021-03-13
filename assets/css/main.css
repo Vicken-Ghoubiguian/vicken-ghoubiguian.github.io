@@ -37,6 +37,13 @@ body, li {
   color: #ff0000;
 }
 
+/* Blue ribbon icon class */
+.fa-award {
+
+  color: #0063ff;
+  margin-left: 0px;
+}
+
 nav {
 
   background-color: white;
