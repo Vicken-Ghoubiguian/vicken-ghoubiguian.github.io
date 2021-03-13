@@ -51,12 +51,12 @@ $(function () {
 	  	if(current_thanks_photo_index === 0) {
 
 			// 
-			$('#thank_you_images_slider').attr('title', "Karine JANET, responsible of school office at IMERIR");
+			$('#thank_you_images_slider').attr('title', "Karine JANET");
 
 		} else {
 
 			//
-			$('#thank_you_images_slider').attr('title', "Sonia BOUDERBALA, deputy responsible of school office and assistant at IMERIR");
+			$('#thank_you_images_slider').attr('title', "Sonia BOUDERBALA");
 		}
 
 		// 
