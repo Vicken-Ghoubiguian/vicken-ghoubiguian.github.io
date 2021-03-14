@@ -55,7 +55,7 @@ $(function () {
 			current_thanks_photo_index = 0;
 		}
 
-	}, 5000);
+	}, 2500);
 	
 	// For 'tabs' jQuery UI effect... 
 	var my_online_portfolio_board_tabs = $('#my_online_portfolio_board').tabs({
