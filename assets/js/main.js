@@ -10,27 +10,6 @@ $(function () {
 		"images/photos/photo_de_profit_4.jpg"
 	];
 
-	// Definition of the 'current_profile_photo_index' variable which indicates the current index of 'profile_photos_array' array...
-	var current_profile_photo_index = 0;
-
-	// Definition of the profile photos' timer...
-	setInterval(function(){
-		
-		// Set the current profile photo's path as the 'src' value...
-	  	$('#profile_images_slider').attr('src', profile_photos_array[current_profile_photo_index]);
-
-		// 
-		current_profile_photo_index = current_profile_photo_index + 1;
-
-		// 
-		if(current_profile_photo_index === 4) {
-
-			// 
-			current_profile_photo_index = 0;
-		}
-
-	}, 5000);
-
 	// Definition of all thanks photos in the 'thanks_photos_array' array...
 	var thanks_photos_array = [
 
@@ -38,20 +17,36 @@ $(function () {
 		{url: "images/photos/remerciement_2.jpg", person: "Sonia BOUDERBALA"}
 	];
 
+	// Definition of the 'current_profile_photo_index' variable which indicates the current index of 'profile_photos_array' array...
+	var current_profile_photo_index = 0;
+
 	// Definition of the 'current_thanks_photo_index' variable which indicates the current index of 'thanks_photos_array' array...
 	var current_thanks_photo_index = 0;
 
-	// Definition of the thanks photos' timer...
+	// Definition of the profile photos' timer...
 	setInterval(function(){
 		
-		// Set the current thanks photo's url as the 'src' value...
+		// Set the current profile photo's path as the 'src' value...
+	  	$('#profile_images_slider').attr('src', profile_photos_array[current_profile_photo_index]);
+
+	  	// Set the current thanks photo's url as the 'src' value...
 	  	$('#thank_you_images_slider').attr('src', thanks_photos_array[current_thanks_photo_index].url);
 
 	  	// Set the current thanks photo's person as the 'title' value...
 	  	$('#thank_you_images_slider').attr('title', thanks_photos_array[current_thanks_photo_index].person);
 
 		// 
+		current_profile_photo_index = current_profile_photo_index + 1;
+
+		// 
 		current_thanks_photo_index = current_thanks_photo_index + 1;
+
+		// 
+		if(current_profile_photo_index === 4) {
+
+			// 
+			current_profile_photo_index = 0;
+		}
 
 		// 
 		if(current_thanks_photo_index === 2) {
