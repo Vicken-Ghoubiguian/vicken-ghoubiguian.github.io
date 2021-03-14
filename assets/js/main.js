@@ -13,8 +13,9 @@ $(function () {
 	// Definition of all thanks photos in the 'thanks_photos_array' array...
 	var thanks_photos_array = [
 
-		{url: "images/photos/remerciement_1.jpg", person: "Karine JANET"},
-		{url: "images/photos/remerciement_2.jpg", person: "Sonia BOUDERBALA"}
+		{url: "images/photos/remerciement_1.jpg", person: "Sylvie MUFTIKIAN"},
+		{url: "images/photos/remerciement_2.jpg", person: "Karine JANET"},
+		{url: "images/photos/remerciement_3.jpg", person: "Sonia BOUDERBALA"}
 	];
 
 	// Definition of the 'current_profile_photo_index' variable which indicates the current index of 'profile_photos_array' array...
@@ -49,7 +50,7 @@ $(function () {
 		}
 
 		// 
-		if(current_thanks_photo_index === 2) {
+		if(current_thanks_photo_index === 3) {
 
 			// 
 			current_thanks_photo_index = 0;
