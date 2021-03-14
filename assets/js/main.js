@@ -34,8 +34,8 @@ $(function () {
 	// Definition of all thanks photos in the 'thanks_photos_array' array...
 	var thanks_photos_array = [
 
-		"images/photos/remerciement_1.jpg",
-		"images/photos/remerciement_2.jpg"
+		{url: "images/photos/remerciement_1.jpg", person: "Karine JANET"},
+		{url: "images/photos/remerciement_2.jpg", person: "Sonia BOUDERBALA"}
 	];
 
 	// Definition of the 'current_thanks_photo_index' variable which indicates the current index of 'thanks_photos_array' array...
@@ -44,20 +44,11 @@ $(function () {
 	// Definition of the thanks photos' timer...
 	setInterval(function(){
 		
-		// Set the current thanks photo's path as the 'src' value...
-	  	$('#thank_you_images_slider').attr('src', thanks_photos_array[current_thanks_photo_index]);
+		// Set the current thanks photo's url as the 'src' value...
+	  	$('#thank_you_images_slider').attr('src', thanks_photos_array[current_thanks_photo_index].url);
 
-	  	//
-	  	if(current_thanks_photo_index === 0) {
-
-			// 
-			$('#thank_you_images_slider').attr('title', "Karine JANET");
-
-		} else {
-
-			//
-			$('#thank_you_images_slider').attr('title', "Sonia BOUDERBALA");
-		}
+	  	// Set the current thanks photo's person as the 'title' value...
+	  	$('#thank_you_images_slider').attr('title', thanks_photos_array[current_thanks_photo_index].person);
 
 		// 
 		current_thanks_photo_index = current_thanks_photo_index + 1;
