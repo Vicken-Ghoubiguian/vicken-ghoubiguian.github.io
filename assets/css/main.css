@@ -3,6 +3,16 @@ body, li {
   font-family: cursive;
 }
 
+.bg-style-class {
+
+  background-color: #FFFFFF;
+}
+
+.presentation_text_class {
+
+  color: #ff0000;
+}
+
 #profile_images_slider {
 
   margin-bottom: 15px;
