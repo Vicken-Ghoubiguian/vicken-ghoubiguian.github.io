@@ -69,6 +69,15 @@ nav {
 	
   background-color: white;
   padding-left: 0;
+
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+          transition: transform 0.8s ease-in-out;
+}
+
+.link_in_contact_me:hover {
+  
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .h4 {

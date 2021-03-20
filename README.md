@@ -5,3 +5,9 @@ This project consists to create my personal website which will be my online port
 ## How to consult my online portfolio ?
 
 To consult my online portfolio, please [click here](https://vicken-ghoubiguian.github.io/).
+
+## Deployment by Docker...
+
+### By the Dockerfile
+
+### By Docker Hub
