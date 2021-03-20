@@ -65,6 +65,7 @@ nav {
   background-color: white;
 }
 
+/* Define the social network link's style */
 .link_in_contact_me {
 	
   background-color: white;
@@ -74,8 +75,9 @@ nav {
           transition: transform 0.8s ease-in-out;
 }
 
+/* Define the rotation value in deg when the mouse cursor pass on the social network link */
 .link_in_contact_me:hover {
-  
+
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
 }
