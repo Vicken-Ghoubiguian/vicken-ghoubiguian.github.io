@@ -8,7 +8,12 @@ body, li {
   background-color: #FFFFFF;
 }
 
-.presentation_text_class {
+.introduction {
+
+  margin-top: 5px;
+}
+
+.introduction_text_class {
 
   color: #ff0000;
 }
@@ -41,7 +46,7 @@ body, li {
   display: block;
   font-size: 1.5em;
   margin-top: 0.1em;
-  margin-bottom: 0.67em;
+  /*margin-bottom: 0.67em;*/
   text-align: center;
   font-weight: bold;
   color: #ff0000;
