@@ -11,3 +11,5 @@ To consult my online portfolio, please [click here](https://vicken-ghoubiguian.g
 ### By the Dockerfile
 
 ### By Docker Hub
+
+A Docker image is available on Docker hub just [here](https://hub.docker.com/r/wicken/vicken-ghoubiguian.github.io). To deploy my online portfolio by the image on Docker hub, please follow these commands in order:
