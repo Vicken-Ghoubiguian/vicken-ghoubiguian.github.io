@@ -4,6 +4,12 @@ body, li {
   background-color: #FFFFFF;
 }
 
+footer {
+
+  color: #ff0000;
+  margin-top: 0.55em;
+}
+
 .bg-style-class {
 
   background-color: #FFFFFF;
