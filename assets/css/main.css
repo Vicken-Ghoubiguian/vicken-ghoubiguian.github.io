@@ -1,13 +1,11 @@
 body, li {
 
-  /*font-family: cursive;*/
   font-family: verdana;
   background-color: #FFFFFF;
 }
 
 footer {
 
-  /*color: #ff0000;*/
   margin-top: 0.55em;
 }
 
@@ -21,10 +19,10 @@ footer {
   margin-top: 5px;
 }
 
-.introduction_text_class {
+/*.introduction_text_class {
 
-  /*color: #ff0000;*/
-}
+  color: #ff0000;
+}*/
 
 #profile_images_slider {
 
@@ -46,7 +44,6 @@ footer {
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
-  /*color: #ff0000;*/
 }
 
 .sub-title {
@@ -54,10 +51,8 @@ footer {
   display: block;
   font-size: 1.5em;
   margin-top: 0.1em;
-  /*margin-bottom: 0.67em;*/
   text-align: center;
   font-weight: bold;
-  /*color: #ff0000;*/
 }
 
 /* Blue ribbon icon class */
