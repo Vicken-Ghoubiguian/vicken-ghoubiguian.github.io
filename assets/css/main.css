@@ -24,6 +24,19 @@ footer {
   margin-left: 10px;
 }
 
+.guardians_of_banner {
+
+  -webkit-transition: -webkit-transform 1.3s ease-in-out;
+          transition: transform 1.3s ease-in-out;
+}
+
+/* Define the rotation value in deg when the mouse cursor pass on the  */
+.guardians_of_banner:hover {
+
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
 .bg-style-class {
 
   background-color: #FFFFFF;
