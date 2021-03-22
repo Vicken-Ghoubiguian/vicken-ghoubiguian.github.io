@@ -9,6 +9,21 @@ footer {
   margin-top: 0.55em;
 }
 
+.first_place_podium_banner {
+
+  text-align: center;
+}
+
+.fa-trophy-of-first-place-podium-banner {
+
+  color: #FFD700;
+}
+
+.centered-text-of-first-place-podium-banner {
+
+  margin-left: 10px;
+}
+
 .bg-style-class {
 
   background-color: #FFFFFF;
