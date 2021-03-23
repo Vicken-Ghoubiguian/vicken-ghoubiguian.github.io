@@ -33,8 +33,8 @@ footer {
 /* Define the rotation value in deg when the mouse cursor pass on the  */
 .guardians_of_banner:hover {
 
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 .bg-style-class {
