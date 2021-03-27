@@ -9,6 +9,18 @@ footer {
   margin-top: 0.55em;
 }
 
+.fa-address-book-of-first-place-podium-banner {
+
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.fa-satellite-of-first-place-podium-banner {
+
+  margin-left: 7px;
+}
+
 .first_place_podium_banner {
 
   text-align: center;
