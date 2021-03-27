@@ -108,8 +108,8 @@ $(function () {
 		modal: true
 	});
 
-	// Defining the 'dialog_to_contact_me' dialog pop-up...
-	$("#dialog_to_contact_me").dialog({
+	// Defining the 'dialog_to_open_my_card' dialog pop-up...
+	$("#dialog_to_open_my_card").dialog({
 
 		autoOpen: false,
 		show: {
@@ -126,11 +126,11 @@ $(function () {
 		modal: true
 	});
 
-	// Define the function when the visitor click on the 'my_contact_details' button...
-	$("#my_contact_details").on( "click", function() {
+	// Define the function when the visitor click on the 'my_card' button...
+	$("#my_card").on( "click", function() {
 
-		// Opening the 'dialog_to_contact_me' dialog pop-up...
-		$("#dialog_to_contact_me").dialog("open");
+		// Opening the 'dialog_to_open_my_card' dialog pop-up...
+		$("#dialog_to_open_my_card").dialog("open");
 	});
 
 	// Define the function when the visitor click on the 'my_resume' button...
