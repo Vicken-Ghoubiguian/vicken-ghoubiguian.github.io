@@ -28,6 +28,8 @@ docker build . -t vicken-ghoubiguian.github.io:latest
 docker container run -d --name vicken-ghoubiguian.github.io -p 80:80 vicken-ghoubiguian.github.io:latest
 ```
 
+Congratulations, now my online portfolio is working. To access this application, type the following address in the bar of your browser: [http://localhost/](http://localhost/).
+
 ### By Docker Hub
 
 A Docker image is available on Docker hub just [here](https://hub.docker.com/r/wicken/vicken-ghoubiguian.github.io). To deploy my online portfolio by the image on Docker hub, please follow these commands in order:
@@ -42,6 +44,8 @@ docker container run -d --name vicken-ghoubiguian.github.io -p 80:80 wicken/vick
 # Checking the IP address of the Docker container of the vicken-ghoubiguian.github.io application...
 docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' vicken-ghoubiguian.github.io
 ```
+
+Congratulations, now my online portfolio is working. To access this application, type the following address in the bar of your browser: [http://localhost/](http://localhost/).
 
 <a id='consultation'></a>
 ## How to consult my online portfolio ?
