@@ -2,9 +2,7 @@
 
 This project consists to create my personal website which will be my online portfolio...
 
-## How to consult my online portfolio ?
-
-To consult my online portfolio, please [click here](https://vicken-ghoubiguian.github.io/).
+## Contents
 
 ## Deployment by Docker...
 
@@ -42,3 +40,7 @@ docker container run -d --name vicken-ghoubiguian.github.io -p 80:80 wicken/vick
 # Checking the IP address of the Docker container of the vicken-ghoubiguian.github.io application...
 docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' vicken-ghoubiguian.github.io
 ```
+
+## How to consult my online portfolio ?
+
+To consult my online portfolio, please [click here](https://vicken-ghoubiguian.github.io/).
