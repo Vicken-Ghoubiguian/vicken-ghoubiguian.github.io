@@ -8,6 +8,8 @@ To consult my online portfolio, please [click here](https://vicken-ghoubiguian.g
 
 ## Deployment by Docker...
 
+You can also use Docker to deploy my online portfolio. There are 2 methods of deploying my online portfolio by Docker:
+
 ### By the Dockerfile
 
 A Dockerfile is available in the project root, and you can consult it [here](https://github.com/Vicken-Ghoubiguian/vicken-ghoubiguian.github.io/blob/master/Dockerfile). To deploy this web app by the Dockerfile, please follow these commands in order:
