@@ -4,12 +4,19 @@ This project consists to create my personal website which will be my online port
 
 ## Contents
 
-1. [How to consult my online portfolio](#consultation) ?
+1. [Deployment by Docker](#deployment_by_docker)...
 
+	* [By the Dockerfile](#deployment_by_docker)
+	* [By Docker Hub](#deployment_by_docker_docker_hub)
+
+2. [How to consult my online portfolio](#consultation) ?
+
+<a name="deployment_by_docker"></a>
 ## Deployment by Docker...
 
 You can also use Docker to deploy my online portfolio. There are 2 methods of deploying my online portfolio by Docker:
 
+<a name="deployment_by_docker_dockerfile"></a>
 ### By the Dockerfile
 
 A Dockerfile is available in the project root, and you can consult it [here](https://github.com/Vicken-Ghoubiguian/vicken-ghoubiguian.github.io/blob/master/Dockerfile). To deploy this web app by the Dockerfile, please follow these commands in order:
@@ -33,6 +40,7 @@ docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}
 
 Congratulations, now my online portfolio is working. To access this application, type the following address in the bar of your browser: [http://localhost/](http://localhost/).
 
+<a name="deployment_by_docker_docker_hub"></a>
 ### By Docker Hub
 
 A Docker image is available on Docker hub just [here](https://hub.docker.com/r/wicken/vicken-ghoubiguian.github.io). To deploy my online portfolio by the image on Docker hub, please follow these commands in order:
@@ -50,7 +58,7 @@ docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}
 
 Congratulations, now my online portfolio is working. To access this application, type the following address in the bar of your browser: [http://localhost/](http://localhost/).
 
-<a id='consultation'></a>
+<a name='consultation'></a>
 ## How to consult my online portfolio ?
 
 To consult my online portfolio, please [click here](https://vicken-ghoubiguian.github.io/).
