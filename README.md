@@ -1,6 +1,6 @@
 # vicken-ghoubiguian.github.io
 
-This project consists to create my personal website which will be my online portfolio...
+This project consists to create my personal online portfolio as a simple static website...
 
 ## Contents
 
