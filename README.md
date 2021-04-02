@@ -4,17 +4,26 @@ This project consists to create my personal online portfolio as a simple static 
 
 ## Contents
 
-1. [Deployment by Docker](#deployment_by_docker)...
+1. [Introduction](#introduction)
+2. [Deployment by Docker](#deployment_by_docker)...
 
 	* [By the Dockerfile](#deployment_by_docker)
 	* [By Docker Hub](#deployment_by_docker_docker_hub)
 
-2. [How to consult my online portfolio](#consultation) ?
+3. [How to consult my online portfolio](#consultation) ?
+
+<a name="introduction"></a>
+## Introduction
 
 <a name="deployment_by_docker"></a>
 ## Deployment by Docker...
 
 You can also use Docker to deploy my online portfolio. There are 2 methods of deploying my online portfolio by Docker:
+
+* by the Dockerfile of these project
+* by the pulled image on Docker hub
+
+Both are exhibited here.
 
 <a name="deployment_by_docker_dockerfile"></a>
 ### By the Dockerfile
