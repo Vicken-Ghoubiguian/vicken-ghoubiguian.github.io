@@ -16,6 +16,24 @@ footer {
   color: transparent;
 }
 
+.fa-infinity-of-first-place-podium-banner {
+
+  color: #850606;
+  margin-left: 7px;
+}
+
+.fa-sign-language-of-first-place-podium-banner {
+
+  color: #e1d2b8;
+  margin-left: 7px;
+}
+
+.fa-dumbbell-of-first-place-podium-banner {
+
+  color: #298ff5;
+  margin-left: 7px;
+}
+
 .fa-satellite-of-first-place-podium-banner {
 
   color: #000000;
@@ -30,6 +48,21 @@ footer {
 .fa-trophy-of-first-place-podium-banner {
 
   color: #FFD700;
+}
+
+.fa-magic {
+
+  color: #FFD700;
+}
+
+.fa-book-reader {
+
+  color: #695c78;
+}
+
+.fa-file-code {
+
+  color: #16b84e;
 }
 
 .fa-book {
