@@ -15,6 +15,19 @@ This project consists to create my personal online portfolio as a simple static 
 <a name="introduction"></a>
 ## Introduction
 
+This online portfolio contains:
+
+* **Presentation**:
+* **My achievements**:
+* **My skills**:
+* **My key words**:
+* **My career**
+* **My training course**:
+* **Spoken languages**:
+* **My hobbies**:
+* **Contact me**:
+* **Thanks**:
+
 <a name="deployment_by_docker"></a>
 ## Deployment by Docker...
 
