@@ -27,14 +27,14 @@ $(function () {
 	// Definition of the profile photos' timer...
 	setInterval(function(){
 
-		//
+		// Disappearance of the profile picture...
 	  	$('#profile_images_slider').fadeOut(1500, function(){
 
 	  		// Set the current profile photo's path as the 'src' value...
 	  		$('#profile_images_slider').attr('src', profile_photos_array[current_profile_photo_index]);
 	  	});
 
-	  	//
+	  	// Disappearance of the thanks picture...
 	  	$('#thank_you_images_slider').fadeOut(1500, function(){
 
 	  		// Set the current thanks photo's url as the 'src' value...
@@ -44,33 +44,33 @@ $(function () {
 	  		$('#thank_you_images_slider').attr('title', thanks_photos_array[current_thanks_photo_index].person);
 	  	});
 
-	  	//
+	  	// Appearance of the profile picture...
 	  	$('#profile_images_slider').fadeIn(1500);
 
-	  	//
+	  	// Appearance of the thanks picture...
 	  	$('#thank_you_images_slider').fadeIn(1500);
 
-		// 
+		// Changing the profile index value by incrementing by 1
 		current_profile_photo_index = current_profile_photo_index + 1;
 
-		// 
+		// Changing the thanks index value by incrementing by 1
 		current_thanks_photo_index = current_thanks_photo_index + 1;
 
-		// 
+		// If the profile photo index value is equal to 4 (total number of profile photos) then...
 		if(current_profile_photo_index === 4) {
 
-			// 
+			// Then the index of the profile picture resets to zero
 			current_profile_photo_index = 0;
 		}
 
-		// 
+		// If the thanks photo index value is equal to 3 (total number of thanks photos) then...
 		if(current_thanks_photo_index === 3) {
 
-			// 
+			// Then the index of the thanks picture resets to zero
 			current_thanks_photo_index = 0;
 		}
 
-	}, 5000);
+	}, 5000); // The interval is 5 seconds (or 5000 miliseconds)
 	
 	// For 'tabs' jQuery UI effect... 
 	var my_online_portfolio_board_tabs = $('#my_online_portfolio_board').tabs({
