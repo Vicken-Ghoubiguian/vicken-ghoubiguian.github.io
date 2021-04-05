@@ -28,25 +28,27 @@ $(function () {
 	setInterval(function(){
 
 		//
-	  	$('#profile_images_slider').fadeOut(1500);
+	  	$('#profile_images_slider').fadeOut(1500, function(){
+
+	  		// Set the current profile photo's path as the 'src' value...
+	  		$('#profile_images_slider').attr('src', profile_photos_array[current_profile_photo_index]);
+	  	});
 
 	  	//
-	  	$('#thank_you_images_slider').fadeOut(1500);
-		
-		// Set the current profile photo's path as the 'src' value...
-	  	$('#profile_images_slider').attr('src', profile_photos_array[current_profile_photo_index]);
+	  	$('#thank_you_images_slider').fadeOut(1500, function(){
 
-	  	// Set the current thanks photo's url as the 'src' value...
-	  	$('#thank_you_images_slider').attr('src', thanks_photos_array[current_thanks_photo_index].url);
+	  		// Set the current thanks photo's url as the 'src' value...
+	  		$('#thank_you_images_slider').attr('src', thanks_photos_array[current_thanks_photo_index].url);
+
+	  		// Set the current thanks photo's person as the 'title' value...
+	  		$('#thank_you_images_slider').attr('title', thanks_photos_array[current_thanks_photo_index].person);
+	  	});
 
 	  	//
 	  	$('#profile_images_slider').fadeIn(1500);
 
 	  	//
 	  	$('#thank_you_images_slider').fadeIn(1500);
-
-	  	// Set the current thanks photo's person as the 'title' value...
-	  	$('#thank_you_images_slider').attr('title', thanks_photos_array[current_thanks_photo_index].person);
 
 		// 
 		current_profile_photo_index = current_profile_photo_index + 1;
