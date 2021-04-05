@@ -26,12 +26,24 @@ $(function () {
 
 	// Definition of the profile photos' timer...
 	setInterval(function(){
+
+		//
+	  	$('#profile_images_slider').fadeOut(1500);
+
+	  	//
+	  	$('#thank_you_images_slider').fadeOut(1500);
 		
 		// Set the current profile photo's path as the 'src' value...
 	  	$('#profile_images_slider').attr('src', profile_photos_array[current_profile_photo_index]);
 
 	  	// Set the current thanks photo's url as the 'src' value...
 	  	$('#thank_you_images_slider').attr('src', thanks_photos_array[current_thanks_photo_index].url);
+
+	  	//
+	  	$('#profile_images_slider').fadeIn(1500);
+
+	  	//
+	  	$('#thank_you_images_slider').fadeIn(1500);
 
 	  	// Set the current thanks photo's person as the 'title' value...
 	  	$('#thank_you_images_slider').attr('title', thanks_photos_array[current_thanks_photo_index].person);
@@ -56,7 +68,7 @@ $(function () {
 			current_thanks_photo_index = 0;
 		}
 
-	}, 2500);
+	}, 5000);
 	
 	// For 'tabs' jQuery UI effect... 
 	var my_online_portfolio_board_tabs = $('#my_online_portfolio_board').tabs({
