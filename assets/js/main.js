@@ -18,7 +18,7 @@ $(function () {
 		{url: "images/photos/remerciement_3.jpg", person: "Sonia BOUDERBALA"}
 	];
 
-	//
+	// Definition of all leisure photos in the 'leisures_photos_array' array...
 	var leisures_photos_array = [
 
 		{url: "images/images_de_loisirs/projets_de_maker.png", title: ""},
@@ -36,7 +36,7 @@ $(function () {
 	// Definition of the 'current_thanks_photo_index' variable which indicates the current index of 'thanks_photos_array' array...
 	var current_thanks_photo_index = 0;
 
-	//
+	// Definition of the 'current_leisure_photo_index' variable which indicates the current index of 'leisures_photos_array' array...
 	var current_leisure_photo_index = 0;
 
 	// Definition of the profile photos' timer...
