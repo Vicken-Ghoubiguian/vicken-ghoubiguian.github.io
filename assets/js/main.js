@@ -18,11 +18,26 @@ $(function () {
 		{url: "images/photos/remerciement_3.jpg", person: "Sonia BOUDERBALA"}
 	];
 
+	//
+	var leisures_photos_array = [
+
+		{url: "images/images_de_loisirs/projets_de_maker.png", title: ""},
+		{url: "images/images_de_loisirs/developper.jpeg", title: ""},
+		{url: "images/images_de_loisirs/experimenter.png", title: ""},
+		{url: "images/images_de_loisirs/musculation.jpg", title: ""},
+		{url: "images/images_de_loisirs/lire.jpeg", title: ""},
+		{url: "images/images_de_loisirs/science-fiction-et-space-opera.jpg", title: ""},
+		{url: "images/images_de_loisirs/soif_de_connaissances.jpeg", title: ""}	
+	];
+
 	// Definition of the 'current_profile_photo_index' variable which indicates the current index of 'profile_photos_array' array...
 	var current_profile_photo_index = 0;
 
 	// Definition of the 'current_thanks_photo_index' variable which indicates the current index of 'thanks_photos_array' array...
 	var current_thanks_photo_index = 0;
+
+	//
+	var current_leisure_photo_index = 0;
 
 	// Definition of the profile photos' timer...
 	setInterval(function(){
