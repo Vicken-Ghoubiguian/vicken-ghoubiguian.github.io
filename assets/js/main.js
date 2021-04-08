@@ -71,6 +71,9 @@ $(function () {
 		// Changing the thanks index value by incrementing by 1
 		current_thanks_photo_index = current_thanks_photo_index + 1;
 
+		//
+		current_leisure_photo_index = current_leisure_photo_index + 1;
+
 		// If the profile photo index value is equal to 4 (total number of profile photos) then...
 		if(current_profile_photo_index === 4) {
 
@@ -84,6 +87,14 @@ $(function () {
 			// Then the index of the thanks picture resets to zero
 			current_thanks_photo_index = 0;
 		}
+
+		//
+		if(current_leisure_photo_index === 7) {
+
+			// Then the index of the leisures picture resets to zero
+			current_leisure_photo_index = 0;
+		}
+
 
 	}, 5000); // The interval is 5 seconds (or 5000 miliseconds)
 	
