@@ -33,7 +33,7 @@ This online portfolio contains:
 
 You can also use Docker to deploy my online portfolio. There are 2 methods of deploying my online portfolio by Docker:
 
-* by the Dockerfile of these project
+* by the Dockerfile of these project,
 * by the pulled image on Docker hub
 
 Both are exhibited here.
