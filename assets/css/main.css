@@ -36,7 +36,9 @@ footer {
 
 .fa-satellite-of-first-place-podium-banner {
 
-  color: #000000;
+  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
+  -webkit-background-clip: text;
+  color: transparent;
   margin-left: 7px;
 }
 
