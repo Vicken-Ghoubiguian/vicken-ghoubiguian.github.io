@@ -71,7 +71,7 @@ $(function () {
 		// Changing the thanks index value by incrementing by 1
 		current_thanks_photo_index = current_thanks_photo_index + 1;
 
-		//
+		// Changing the leisures index value by incrementing by 1
 		current_leisure_photo_index = current_leisure_photo_index + 1;
 
 		// If the profile photo index value is equal to 4 (total number of profile photos) then...
@@ -88,7 +88,7 @@ $(function () {
 			current_thanks_photo_index = 0;
 		}
 
-		//
+		// If the leisures photo index value is equal to 7 (total number of leisures photos) then...
 		if(current_leisure_photo_index === 7) {
 
 			// Then the index of the leisures picture resets to zero
