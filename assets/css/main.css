@@ -31,6 +31,24 @@ div#my_achievements {
   background-size: cover;
 }
 
+div#my_skills {
+
+  background-image: url("../../images/fonds/my_skills.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div#spoken_languages {
+
+  background-image: url("../../images/fonds/spoken_languages.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 footer {
 
   margin-top: 0.55em;
