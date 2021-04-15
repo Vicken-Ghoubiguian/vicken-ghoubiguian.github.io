@@ -5,6 +5,14 @@ body, li {
   background-color: #FFFFFF;*/
 }
 
+.section_of_sections {
+
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 div#presentation {
 
   background-image: url("../../images/fonds/presentation.png");
