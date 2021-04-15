@@ -5,9 +5,13 @@ body, li {
   background-color: #FFFFFF;*/
 }
 
-div#my_training_course {
+div#my_achievements {
 
-  background-color: pink;
+  background-image: url("../../images/fonds/my_achievements_background_image.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 footer {
