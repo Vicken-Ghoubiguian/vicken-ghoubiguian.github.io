@@ -5,6 +5,15 @@ body, li {
   background-color: #FFFFFF;*/
 }
 
+div#presentation {
+
+  background-image: url("../../images/fonds/presentation.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 div#my_achievements {
 
   background-image: url("../../images/fonds/my_achievements_background_image.png");
