@@ -5,6 +5,11 @@ body, li {
   background-color: #FFFFFF;*/
 }
 
+div#my_training_course {
+
+  background-color: pink;
+}
+
 footer {
 
   margin-top: 0.55em;
