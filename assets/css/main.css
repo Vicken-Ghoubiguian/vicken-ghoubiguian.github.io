@@ -41,6 +41,15 @@ div#spoken_languages {
   background-size: cover;
 }
 
+div#contact_me {
+
+  background-image: url("../../images/fonds/contact_me.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 footer {
 
   margin-top: 0.55em;
