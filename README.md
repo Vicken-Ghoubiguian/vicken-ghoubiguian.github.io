@@ -12,6 +12,8 @@ This project consists to create my personal online portfolio as a simple static 
 
 3. [How to consult my online portfolio](#consultation) ?
 
+4. [Conclusion](#conclusion)
+
 <a name="introduction"></a>
 ## Introduction
 
@@ -84,3 +86,6 @@ Congratulations, now my online portfolio is working. To access this application,
 ## How to consult my online portfolio ?
 
 To consult my online portfolio, please [click here](https://vicken-ghoubiguian.github.io/).
+
+<a name='conclusion'></a>
+## Conclusion
