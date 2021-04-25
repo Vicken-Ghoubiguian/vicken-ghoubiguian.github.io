@@ -180,7 +180,7 @@ $(function () {
 		$("#dialog_to_display_my_resume").dialog("open");
 	});
 
-	//
+	// Define the body style...
 	$("body").css("background-image", "url('images/fonds/Shanghai_Metro_tunnel_2.png')");
 	$("body").css("height", "100%");
 	$("body").css("background-position", "center");
