@@ -8,7 +8,7 @@ body, li {
   color: rgba(255, 255, 255, 1);
 }
 
-div#presentation {
+/*div#presentation {
 
   background-image: url("../../images/fonds/presentation.png");
   height: 100%;
@@ -51,7 +51,7 @@ div#contact_me {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+}*/
 
 footer {
 
