@@ -288,7 +288,7 @@ nav {
 }
 
 /* GitHub Font Awesome (FA) icon class */
-.fa-github {
+.fa-github-repos {
 
   color: #ffffff;
 }
@@ -331,4 +331,10 @@ nav {
 .fa-envelope-square {
 
   color: #007fff;
+}
+
+/**/
+.fa-github-profile {
+
+  color: #000000;
 }
