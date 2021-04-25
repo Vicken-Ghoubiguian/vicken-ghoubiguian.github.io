@@ -180,4 +180,10 @@ $(function () {
 		$("#dialog_to_display_my_resume").dialog("open");
 	});
 
+	//
+	$("body").css("background-image", "url('images/fonds/Shanghai_Metro_tunnel_2.png')");
+	$("body").css("height", "100%");
+	$("body").css("background-position", "center");
+	$("body").css("background-repeat", "no-repeat");
+	$("body").css("background-size", "cover");
 })
