@@ -57,6 +57,7 @@ div#contact_me {
 footer {
 
   margin-top: 0.55em;
+  color: #ffffff;
 }
 
 .fa-address-book-of-first-place-podium-banner {
@@ -210,6 +211,7 @@ footer {
 .main_title {
 
   text-align: center;
+  color: #ffffff;
 }
 
 .section_title {
@@ -230,6 +232,7 @@ footer {
   margin-top: 0.1em;
   text-align: center;
   font-weight: bold;
+  color: #ffffff;
 }
 
 /* Blue ribbon icon class */
@@ -288,7 +291,7 @@ nav {
 /* GitHub Font Awesome (FA) icon class */
 .fa-github {
 
-  color: #000000;
+  color: #ffffff;
 }
 
 /* Docker Font Awesome (FA) icon class */
