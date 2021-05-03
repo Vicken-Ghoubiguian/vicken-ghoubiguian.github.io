@@ -87,6 +87,12 @@ Congratulations, now my online portfolio is working. To access this application,
 ## How to consult my online portfolio ?
 
 To consult my online portfolio, please [click here](https://vicken-ghoubiguian.github.io/).
+You can also consult my online portfolio's Git repos and official Docker image respectively on:
+
+* [GitHub](https://github.com/Vicken-Ghoubiguian/vicken-ghoubiguian.github.io),
+* [Docker Hub](https://hub.docker.com/r/wicken/vicken-ghoubiguian.github.io)
+
+So don't hesitate to take a look.
 
 <a name='conclusion'></a>
 ## Conclusion
