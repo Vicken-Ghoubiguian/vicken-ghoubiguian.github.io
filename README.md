@@ -6,14 +6,16 @@ This project consists to create my personal online portfolio as a simple static 
 
 1. [Introduction](#introduction)
 
-2. [Deployment by Docker](#deployment_by_docker)...
+2. [Deployment on a web server](#deployment_on_a_web_server)
 
-	* [By the Dockerfile](#deployment_by_docker)
+3. [Deployment by Docker](#deployment_by_docker)...
+
+	* [By the Dockerfile](#deployment_by_docker_dockerfile)
 	* [By Docker Hub](#deployment_by_docker_docker_hub)
 
-3. [How to consult my online portfolio](#consultation) ?
+4. [How to consult my online portfolio](#consultation) ?
 
-4. [Conclusion](#conclusion)
+5. [Conclusion](#conclusion)
 
 <a name="introduction"></a>
 ## Introduction
@@ -40,6 +42,9 @@ My online portfolio contains:
 * **My hobbies**: i present what I do in my free time,
 * **Contact me**: i deliver all the secrets to call me or send me a message,
 * **Thanks**: i thank those who advise me and support me in my process
+
+<a name="deployment_on_a_web_server"></a>
+## Deployment on a web server
 
 <a name="deployment_by_docker"></a>
 ## Deployment by Docker...
