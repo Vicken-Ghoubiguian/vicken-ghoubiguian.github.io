@@ -18,7 +18,17 @@ This project consists to create my personal online portfolio as a simple static 
 <a name="introduction"></a>
 ## Introduction
 
-This online portfolio contains:
+This project consists to develop my online portfolio.
+
+So he will address itself to:
+
+*
+*
+*
+*
+*
+
+My online portfolio contains:
 
 * **Presentation**: i introduce myself very briefly,
 * **My achievements**: i present what i have done and especially those of which i am proud,
