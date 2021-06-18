@@ -32,16 +32,16 @@ So he will address itself to:
 
 My online portfolio contains:
 
-* **Presentation**: i introduce myself very briefly,
-* **My achievements**: i present what i have done and especially those of which i am proud,
-* **My skills**: i say what I can do,
-* **My key words**: i present my values,
-* **My career**: i present to you the different jobs that i exercised,
-* **My training course**: i deliver my school path with my diplomas,
-* **Spoken languages**: i tell which languages i speak with the level for each of them
-* **My hobbies**: i present what I do in my free time,
-* **Contact me**: i deliver all the secrets to call me or send me a message,
-* **Thanks**: i thank those who advise me and support me in my process
+* **Presentation**: I introduce myself very briefly,
+* **My achievements**: I present what i have done and especially those of which i am proud,
+* **My skills**: I say what I can do,
+* **My key words**: I present my values,
+* **My career**: I present to you the different jobs that i exercised,
+* **My training course**: I deliver my school path with my diplomas,
+* **Spoken languages**: I tell which languages i speak with the level for each of them
+* **My hobbies**: I present what I do in my free time,
+* **Contact me**: I deliver all the secrets to call me or send me a message,
+* **Thanks**: I thank those who advise me and support me in my process
 
 <a name="deployment_on_a_web_server"></a>
 ## Deployment on a web server
