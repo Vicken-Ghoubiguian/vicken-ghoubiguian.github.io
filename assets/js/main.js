@@ -130,6 +130,18 @@ $(function () {
       		}
   	});
 
+	//
+	$("#french_language").click(function(){
+
+		console.log("French language...");
+	});
+
+	//
+	$("#english_language").click(function(){
+
+		console.log("English language...");
+	});
+
 	// Defining the 'dialog_to_display_my_resume' dialog pop-up...
 	$("#dialog_to_display_my_resume").dialog({
 
