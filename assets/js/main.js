@@ -130,16 +130,108 @@ $(function () {
       		}
   	});
 
+	//
+	$("#dialog_language_french").dialog({
+
+		autoOpen: false,
+		show: {
+        	effect: "scale",
+        	duration: 1000
+      	},
+      	hide: {
+        	effect: "drop",
+        	duration: 1000
+      	},
+		resizable: false,
+		height: 880,
+		width: 800,
+		modal: true
+	});
+	
+	//
+	$("#dialog_language_english").dialog({
+
+		autoOpen: false,
+		show: {
+        	effect: "scale",
+        	duration: 1000
+      	},
+      	hide: {
+        	effect: "drop",
+        	duration: 1000
+      	},
+		resizable: false,
+		height: 880,
+		width: 800,
+		modal: true
+	});
+
+	//
+	$("#dialog_language_armenian").dialog({
+
+		autoOpen: false,
+		show: {
+        	effect: "scale",
+        	duration: 1000
+      	},
+      	hide: {
+        	effect: "drop",
+        	duration: 1000
+      	},
+		resizable: false,
+		height: 880,
+		width: 800,
+		modal: true
+	});
+
+	//
+	$("#dialog_language_korean").dialog({
+
+		autoOpen: false,
+		show: {
+        	effect: "scale",
+        	duration: 1000
+      	},
+      	hide: {
+        	effect: "drop",
+        	duration: 1000
+      	},
+		resizable: false,
+		height: 880,
+		width: 800,
+		modal: true
+	});
+
+	//
+	$("#dialog_language_japanese").dialog({
+
+		autoOpen: false,
+		show: {
+        	effect: "scale",
+        	duration: 1000
+      	},
+      	hide: {
+        	effect: "drop",
+        	duration: 1000
+      	},
+		resizable: false,
+		height: 880,
+		width: 800,
+		modal: true
+	});
+
 	// Define the function when the visitor click on the 'french' image in 'Spoken languages'...
 	$("#french_language").on( "click", function() {
 
-		console.log("French language...");
+		// Opening the 'dialog_language_french' dialog pop-up...
+		$("#dialog_language_french").dialog("open");
 	});
 
 	// Define the function when the visitor click on the 'english' image in 'Spoken languages'...
 	$("#english_language").on( "click", function() {
 
-		console.log("English language...");
+		// Opening the 'dialog_language_english' dialog pop-up...
+		$("#dialog_language_english").dialog("open");
 	});
 
 	// Defining the 'dialog_to_display_my_resume' dialog pop-up...
