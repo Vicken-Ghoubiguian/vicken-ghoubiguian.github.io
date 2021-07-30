@@ -130,7 +130,7 @@ $(function () {
       		}
   	});
 
-	//
+	// Defining the 'dialog_language_french' dialog pop-up...
 	$("#dialog_language_french").dialog({
 
 		autoOpen: false,
@@ -148,7 +148,7 @@ $(function () {
 		modal: true
 	});
 	
-	//
+	// Defining the 'dialog_language_english' dialog pop-up...
 	$("#dialog_language_english").dialog({
 
 		autoOpen: false,
@@ -166,7 +166,7 @@ $(function () {
 		modal: true
 	});
 
-	//
+	// Defining the 'dialog_language_armenian' dialog pop-up...
 	$("#dialog_language_armenian").dialog({
 
 		autoOpen: false,
@@ -184,7 +184,7 @@ $(function () {
 		modal: true
 	});
 
-	//
+	// Defining the 'dialog_language_korean' dialog pop-up...
 	$("#dialog_language_korean").dialog({
 
 		autoOpen: false,
@@ -202,7 +202,7 @@ $(function () {
 		modal: true
 	});
 
-	//
+	// Defining the 'dialog_language_japanese' dialog pop-up...
 	$("#dialog_language_japanese").dialog({
 
 		autoOpen: false,
