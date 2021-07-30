@@ -130,13 +130,13 @@ $(function () {
       		}
   	});
 
-	//
+	// Define the function when the visitor click on the 'french' image in 'Spoken languages'...
 	$("#french_language").on( "click", function() {
 
 		console.log("French language...");
 	});
 
-	//
+	// Define the function when the visitor click on the 'english' image in 'Spoken languages'...
 	$("#english_language").on( "click", function() {
 
 		console.log("English language...");
