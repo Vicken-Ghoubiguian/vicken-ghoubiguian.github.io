@@ -234,24 +234,24 @@ $(function () {
 		$("#dialog_language_english").dialog("open");
 	});
 
-	//
+	// Define the function when the visitor click on the 'armenian' image in 'Spoken languages'...
 	$("#armenian_language").on( "click", function() {
 
-		//
+		// Opening the 'dialog_language_armenian' dialog pop-up...
 		$("#dialog_language_armenian").dialog("open");
 	});
 
-	//
+	// Define the function when the visitor click on the 'korean' image in 'Spoken languages'...
 	$("#korean_language").on( "click", function() {
 
-		//
+		// Opening the 'dialog_language_korean' dialog pop-up...
 		$("#dialog_language_korean").dialog("open");
 	});
 
-	//
+	// Define the function when the visitor click on the 'japanese' image in 'Spoken languages'...
 	$("#japanese_language").on( "click", function() {
 
-		//
+		// Opening the 'dialog_language_japanese' dialog pop-up...
 		$("#dialog_language_japanese").dialog("open");
 	});
 
