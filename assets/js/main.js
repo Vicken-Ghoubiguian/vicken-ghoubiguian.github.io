@@ -131,13 +131,13 @@ $(function () {
   	});
 
 	//
-	$("#french_language").click(function(){
+	$("#french_language").on( "click", function() {
 
 		console.log("French language...");
 	});
 
 	//
-	$("#english_language").click(function(){
+	$("#english_language").on( "click", function() {
 
 		console.log("English language...");
 	});
