@@ -234,6 +234,27 @@ $(function () {
 		$("#dialog_language_english").dialog("open");
 	});
 
+	//
+	$("#armenian_language").on( "click", function() {
+
+		//
+		$("#dialog_language_armenian").dialog("open");
+	});
+
+	//
+	$("#korean_language").on( "click", function() {
+
+		//
+		$("#dialog_language_korean").dialog("open");
+	});
+
+	//
+	$("#japanese_language").on( "click", function() {
+
+		//
+		$("#dialog_language_japanese").dialog("open");
+	});
+
 	// Defining the 'dialog_to_display_my_resume' dialog pop-up...
 	$("#dialog_to_display_my_resume").dialog({
 
